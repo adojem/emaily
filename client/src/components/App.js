@@ -5,6 +5,7 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import Landing from './Landing';
+
 const Dahsboard = () => <h2>Dahsboard</h2>;
 const SurveyNew = () => <h2>SurveyNew</h2>;
 
@@ -31,5 +32,5 @@ class App extends Component {
 
 export default connect(
    null,
-   actions
+   actions,
 )(App);
